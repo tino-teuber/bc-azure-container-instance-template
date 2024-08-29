@@ -31,7 +31,7 @@
     },
     "bcRelease": {
       "type": "string",
-      "defaultValue": "mcr.microsoft.com/businesscentral:10.0.19041.985",
+      "defaultValue": "mcr.microsoft.com/businesscentral",
       "metadata": {
         "description": "Dynamics 365 Business Central Generic image (10.0.19041.985 is the version of Windows Server). See https://mcr.microsoft.com/v2/businesscentral/tags/list"
       }
@@ -124,6 +124,13 @@
       "metadata": {
         "description": "The sasToken required to access _artifactsLocation.  When the template is deployed using the accompanying scripts, a sasToken will be automatically generated. Use the defaultValue if the staging location is not secured."
       }
+    },
+    "resourceTags": {
+        "type": "object",
+        "defaultValue": {
+            "CreatedBy": "TTE",
+            "Customer": "TTE"
+        }
     }
   },
   "variables": {
@@ -137,6 +144,7 @@
       "apiVersion": "2021-09-01",
       "name": "[parameters('contGroupName')]",
       "location": "[parameters('location')]",
+      "tags": "[parameters('resourceTags')]",
       "properties": {
         "containers": [
           {
