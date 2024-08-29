@@ -31,7 +31,7 @@
     },
     "bcRelease": {
       "type": "string",
-      "defaultValue": "mcr.microsoft.com/businesscentral",
+      "defaultValue": "mcr.microsoft.com/businesscentral:ltsc2022",
       "metadata": {
         "description": "Dynamics 365 Business Central Generic image (10.0.19041.985 is the version of Windows Server). See https://mcr.microsoft.com/v2/businesscentral/tags/list"
       }
