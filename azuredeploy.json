@@ -38,7 +38,7 @@
     },
     "bcArtifactUrl": {
       "type": "string",
-      "defaultValue": "https://bcartifacts.azureedge.net/onprem/19.2.32968.33504/w1",
+      "defaultValue": "https://bcartifacts.azureedge.net/sandbox/24.4.22295.23403/de",
       "metadata": {
         "description": "Dynamics 365 Business Central artifact URL. See https://freddysblog.com/2020/06/25/working-with-artifacts/ to understand how to find the right one."
       }
