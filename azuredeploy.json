@@ -73,7 +73,7 @@
 		},
 		"customNavSettings": {
 			"type": "string",
-			"defaultValue": "SessionTimeout=01:00:00,DeveloperServicesPort=443,SoapServicesPort=443,ODataServicesPort=443,enableTaskScheduler=1",
+			"defaultValue": "SessionTimeout=01:00:00,DeveloperServicesPort=443,enableTaskScheduler=1",
 			"metadata": {
 				"description": "Custom settings for the BCST"
 			}
