@@ -210,14 +210,6 @@
 								},
 								{
 									"protocol": "TCP",
-									"port": 7049
-								},
-								{
-									"protocol": "TCP",
-									"port": 7048
-								},
-								{
-									"protocol": "TCP",
 									"port": 80
 								}
 							],
@@ -242,14 +234,6 @@
 						{
 							"protocol": "TCP",
 							"port": 8080
-						},
-						{
-							"protocol": "TCP",
-							"port": 7049
-						},
-						{
-							"protocol": "TCP",
-							"port": 7048
 						},
 						{
 							"protocol": "TCP",
